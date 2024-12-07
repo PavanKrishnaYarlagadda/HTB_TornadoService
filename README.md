@@ -6,6 +6,7 @@ You have found a portal of the recently arising tornado malware, it appears to h
 
 # Tornado Dashboard
 http://94.237.49.36:49193/
+
 ![image](https://github.com/user-attachments/assets/f981f194-77b2-4782-8d93-493925ac98ad)
 
 
@@ -57,7 +58,7 @@ http://94.237.49.36:49193/
 
 
 # CAPTURED FLAG
-# <code> HTB{s1mpl3_stuff_but_w1th_4_tw15t!} </code>
+<code> HTB{s1mpl3_stuff_but_w1th_4_tw15t!} </code>
 
 Submitted flag on Hack The Box
   
