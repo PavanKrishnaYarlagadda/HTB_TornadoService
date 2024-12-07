@@ -26,7 +26,7 @@ http://94.237.49.36:49193/
 
 2. Create a CSRF Payload file.
    Setup http server (Listener) on port 1337
-   <code>python -m http.server 1337<code>
+   <code> python -m http.server 1337 </code>
    ![image](https://github.com/user-attachments/assets/d03d0f9b-342a-485b-839a-62045be8b9ed)
 
 3. Trigger CSRF Payload (using CURL)
