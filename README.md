@@ -58,7 +58,7 @@ http://94.237.49.36:49193/
 
 
 # CAPTURED FLAG
-<code> HTB{s1mpl3_stuff_but_w1th_4_tw15t!} </code>
+# <code> HTB{s1mpl3_stuff_but_w1th_4_tw15t!} </code>
 
 Submitted flag on Hack The Box
   
